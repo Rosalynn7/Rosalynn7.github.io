@@ -1,6 +1,6 @@
 # Social links shown on the About page (in this order).
 # Full list of supported keys: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/Xiaoqi_Lin_CV.pdf
+# cv_pdf: /assets/pdf/Xiaoqi_Lin_CV.pdf
 email: linrosalynn@gmail.com
 github_username: Rosalynn7
 # scholar_userid: # TODO: the "user=" part of your Google Scholar profile URL
