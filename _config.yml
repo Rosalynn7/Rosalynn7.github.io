@@ -220,6 +220,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - assets/pdf/Xiaoqi_Lin_CV.pdf
+  - assets/pdf/Xiaoqi_Lin_CV.pdf
   - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/
