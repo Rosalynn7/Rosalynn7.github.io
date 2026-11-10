@@ -25,7 +25,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Staff Associate in computational biology in the [Shen Lab](https://www.columbia.edu/~ys2411/) at Columbia University Irving Medical Center, where I work with [Yufeng Shen](https://www.columbia.edu/~ys2411/people/yufeng-shen/) and Wendy Chung. I study the **genetic architecture of early-onset conditions**, including congenital anomalies, autism, and other neurodevelopmental disorders. My work combines **population genetics**, **statistical genomics**, and **deep learning**.
+I am a Staff Associate in the [Shen Lab](https://www.columbia.edu/~ys2411/) at Columbia University Irving Medical Center, where I work with [Yufeng Shen](https://www.columbia.edu/~ys2411/people/yufeng-shen/) and [Wendy Chung](https://wchunglab.com) . I study the **genetic architecture of early-onset conditions**, including congenital anomalies, autism, and other neurodevelopmental disorders. My work combines **population genetics**, **statistical genomics**, and **deep learning**.
 
 Much of my research uses natural selection to understand what variants do. My projects include:
 
