@@ -1,0 +1,4 @@
+# Map co-author last names to their homepages so they are linked on the publications page, e.g.
+# "shen":
+#   - firstname: ["Yufeng", "Y."]
+#     url: https://www.columbia.edu/~ys2411/

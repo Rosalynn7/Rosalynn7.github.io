@@ -1,0 +1,98 @@
+cv:
+  name: Xiaoqi Lin
+  label: Staff Associate (Computational Biology), Shen Lab, Columbia University
+  email: linrosalynn@gmail.com
+  location: New York, NY
+  image: ""
+  summary: Computational biologist studying the genetic architecture of early-onset conditions with population genetics, statistical genomics, and deep learning.
+
+  social_networks:
+    - network: GitHub
+      username: Rosalynn7
+
+  sections:
+    Education:
+      - institution: Columbia University
+        location: New York, NY
+        area: Electrical Engineering
+        studyType: M.S.
+        end_date: 2022-12
+
+      - institution: Beijing Jiaotong University
+        location: Beijing, China
+        area: Electrical Engineering
+        studyType: B.S.
+        end_date: 2021-06
+
+    Research Experience:
+      - company: Shen Lab, Department of Systems Biology, Columbia University Irving Medical Center
+        position: Staff Associate (Computational Biology) · Advisors - Yufeng Shen and Wendy Chung
+        location: New York, NY
+        start_date: 2023-05
+        end_date: present
+        highlights:
+          - "Genetic architecture of congenital anomalies: joint analysis of de novo and rare inherited variants in 401 individuals with EA/TEF; five novel candidate risk genes (FDR < 0.15) including APC2, and enrichment of de novo variants in metabolic processes."
+          - "Fitness impact of noncoding variants (ongoing): deep learning models of RBP binding (ENCODE eCLIP, 168 RBPs) as part of estimating noncoding variant effects from the allele frequency spectrum."
+          - "Selection coefficients as an inheritance-independent criterion to prioritize pathogenic variants (SPARK, PCGC)."
+          - "Long-read phasing of pathogenic KIF1A variants with common SNPs to enable allele-specific ASO therapy."
+          - "Maintaining Mutable.wiki (79,000+ curated de novo variants) and optimizing variant analysis pipelines (FASTQ, BAM/CRAM, VCF)."
+
+      - company: Teradata Corporation
+        position: Research Engineer Intern · Advisor - Christopher Antoun
+        start_date: 2022-05
+        end_date: 2022-08
+        highlights:
+          - Graph embeddings (StellarGraph) and BIRCH clustering of database query logs to identify customer query patterns.
+          - ML classifier predicting query execution plan performance (loss rate below 0.5%).
+
+      - company: Internet Real-Time Lab, Department of Computer Science, Columbia University
+        position: Research Assistant · Advisors - Henning Schulzrinne and Gaston Ormazabal
+        location: New York, NY
+        start_date: 2021-12
+        end_date: 2022-05
+        highlights:
+          - Lasso feature selection (107 to 14 features) and Random Forest / KNN classification of device behavior (accuracy above 95%).
+
+    Presentations:
+      - title: Using selection coefficients to classify novel missense variants as likely pathogenic in neurodevelopmental conditions
+        authors:
+          - Poster, ASHG Annual Meeting
+        date: 2025
+        awarder: American Society of Human Genetics
+
+      - title: Estimated selection coefficients of protein coding variants support large fitness impact of pathogenic variants in neurodevelopmental disorders
+        authors:
+          - Poster, ASHG Annual Meeting
+        date: 2024
+        awarder: American Society of Human Genetics
+
+    Teaching & Mentoring:
+      - company: Department of Systems Biology, Columbia University
+        position: Mentor, Summer Student Research Program
+        start_date: 2025-06
+        end_date: 2026-08
+        summary: Supervised five summer students across two summers (2025, 2026) on project design, coding workflows, and presentation skills.
+
+      - company: Department of Computer Science, Columbia University
+        position: Teaching Assistant, Computer Networks (Vishal Misra)
+        start_date: 2022-09
+        end_date: 2023-05
+
+      - company: Beijing Jiaotong University
+        position: Teaching Assistant, Electrical Circuits (Yin Xu)
+        start_date: 2019-09
+        end_date: 2019-12
+
+    Service:
+      - company: PLoS Computational Biology
+        position: Invited Reviewer
+        start_date: 2024
+        end_date: 2024
+
+    Skills:
+      - name: Genomic analysis
+        keywords: "Nextflow, SAMtools, BCFtools, FreeBayes, DeepVariant"
+      - name: Programming
+        keywords: "Python, Bash, SQL, HTML, JavaScript"
+      - name: Frameworks & tools
+        keywords: "PyTorch, TensorFlow, Keras, scikit-learn, Docker, AWS, Kubernetes, MongoDB, Databricks"
