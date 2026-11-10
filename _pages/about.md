@@ -25,9 +25,9 @@ latest_posts:
   enabled: false
 ---
 
-I am a Staff Associate in the [Shen Lab](https://www.columbia.edu/~ys2411/) at Columbia University Irving Medical Center, where I work with [Yufeng Shen](https://www.columbia.edu/~ys2411/people/yufeng-shen/) and [Wendy Chung](https://wchunglab.com) . I study the **genetic architecture of early-onset conditions**, including congenital anomalies, autism, and other neurodevelopmental disorders. My work combines **population genetics**, **statistical genomics**, and **deep learning**.
+I am a Staff Associate in the [Shen Lab](https://www.columbia.edu/~ys2411/) at Columbia University Irving Medical Center, where I work with [Yufeng Shen](https://www.columbia.edu/~ys2411/people/yufeng-shen/) and [Wendy Chung](https://wchunglab.com). I study the **genetic architecture of early-onset conditions**: congenital anomalies such as esophageal atresia/tracheoesophageal fistula (EA/TEF) and congenital heart disease (CHD), neurodevelopmental disorders, and autism. My work combines **population genetics**, **statistical genomics**, and **deep learning**.
 
-Much of my research uses natural selection to understand what variants do. My projects include:
+My research applies population genetic principles to infer the effects of genetic variants and their contribution to disease. Current projects:
 
 - **Congenital anomalies.** I jointly analyze _de novo_ and rare inherited variants from whole-genome and exome sequencing of 401 individuals with esophageal atresia / tracheoesophageal fistula (EA/TEF). This revealed new candidate risk genes and implicated metabolic processes in human foregut development.
 - **Noncoding variants.** I estimate the fitness impact of noncoding variants from the human allele frequency spectrum, using RNA-binding protein binding and cross-species conservation as priors. As part of this, I'm building deep learning models of post-transcriptional regulation _(ongoing)_.

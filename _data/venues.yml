@@ -1,13 +1,13 @@
-# Badge colors / links for the "abbr" field in papers.bib
+# Badge colors / links for the "abbr" field in papers.bib.
+# The four colors share the same lightness and saturation and sit next to each
+# other on the color wheel (olive, sage, teal, slate), so they read as one family.
 "Nat. Commun.":
   url: https://www.nature.com/ncomms/
-  color: "#0f766e"
+  color: "#618568"
 "Genome Med.":
   url: https://genomemedicine.biomedcentral.com/
-  color: "#1d4ed8"
+  color: "#4d8685"
 "In revision":
-  color: "#b45309"
+  color: "#597f9b"
 "Under review":
-  color: "#6d28d9"
-"In prep.":
-  color: "#6b7280"
+  color: "#7c7e54"

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: "Published papers, manuscripts under review, and manuscripts in preparation. † equal contribution · * corresponding author."
+description: "Published papers and manuscripts under review. † equal contribution · * corresponding author."
 nav: true
 nav_order: 1
 ---
