@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rosalynn7.github.io/sitemap.xml

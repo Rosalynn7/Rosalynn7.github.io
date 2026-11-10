@@ -1,0 +1,144 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Selection coefficients for genomic medicine | Xiaoqi Lin </title> <meta name="author" content="Xiaoqi Lin"> <meta name="description" content="Inheritance-independent prioritization of pathogenic variants in early-onset conditions"> <meta name="keywords" content="computational genomics, human genetics, bioinformatics, rare disease, autism, de novo variants, selection coefficients, Columbia University"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%AC&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://rosalynn7.github.io/projects/3_selection_coefficients/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Xiaoqi</span> Lin </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">research </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Selection coefficients for genomic medicine</h1> <p class="post-description">Inheritance-independent prioritization of pathogenic variants in early-onset conditions</p> </header> <article> <p><strong>The gap.</strong> Returning pathogenic variants in early-onset neurodevelopmental disorders often depends on confirmed <em>de novo</em> status. This lowers diagnostic yield in families without parental genotypes.</p> <p><strong>The idea.</strong> We use <strong>selection coefficients (S)</strong>, an estimate of how strongly natural selection acts against a variant, as an inheritance-independent criterion for prioritizing pathogenic variants. The approach isn’t specific to one disease and applies broadly to early-onset conditions.</p> <p><strong>What we found</strong></p> <ul> <li>We quantified S for <strong>847</strong> clinically returned pathogenic/likely pathogenic variants in <strong>21,532</strong> individuals from the SPARK autism cohort. Pathogenic variants have substantially higher S than ultra-rare background variants. Within each individual, <strong>98%</strong> of loss-of-function and <strong>67%</strong> of missense pathogenic variants rank in the top three by S.</li> <li> <em>De novo</em> variants have higher S than rare inherited variants. Stringent S (MisFit) thresholds recover <em>de novo</em>-level enrichment in non-trio cases, including sex- and cognition-specific thresholds that match or exceed the enrichment seen for <em>de novo</em> variants.</li> <li>S-based ranking across autism (SPARK) and congenital heart disease (PCGC) cohorts captures cohort-specific, biologically meaningful signal.</li> </ul> </article> <h2>References</h2> <div class="publications"> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Xiaoqi Lin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Published papers, manuscripts under review, and manuscripts in preparation. † equal contribution · * corresponding author.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-research",
+          title: "research",
+          description: "Current research projects in the Shen Lab.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Download the PDF for the full version.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "news-joined-the-shen-lab-at-columbia-university-irving-medical-center",
+          title: 'Joined the Shen Lab at Columbia University Irving Medical Center.',
+          description: "",
+          section: "News",},{id: "news-served-as-an-invited-reviewer-for-plos-computational-biology",
+          title: 'Served as an invited reviewer for PLoS Computational Biology.',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-at-ashg-2024-estimated-selection-coefficients-of-protein-coding-variants-support-large-fitness-impact-of-pathogenic-variants-in-neurodevelopmental-disorders",
+          title: 'Presented a poster at ASHG 2024: Estimated selection coefficients of protein coding variants...',
+          description: "",
+          section: "News",},{id: "news-mentoring-three-students-in-the-department-of-systems-biology-summer-student-research-program",
+          title: 'Mentoring three students in the Department of Systems Biology Summer Student Research Program....',
+          description: "",
+          section: "News",},{id: "news-presented-a-poster-at-ashg-2025-on-using-selection-coefficients-to-classify-novel-missense-variants-as-likely-pathogenic-in-neurodevelopmental-conditions",
+          title: 'Presented a poster at ASHG 2025 on using selection coefficients to classify novel...',
+          description: "",
+          section: "News",},{id: "news-our-work-on-antisense-oligonucleotides-targeting-kif1a-polymorphisms-is-published-in-nature-communications",
+          title: 'Our work on antisense oligonucleotides targeting KIF1A polymorphisms is published in Nature Communications....',
+          description: "",
+          section: "News",},{id: "news-mentoring-students-in-the-department-of-systems-biology-summer-student-research-program-for-a-second-summer",
+          title: 'Mentoring students in the Department of Systems Biology Summer Student Research Program for...',
+          description: "",
+          section: "News",},{id: "news-rankvar-a-machine-learning-approach-to-variant-ranking-and-reinterpretation-for-rare-genetic-diseases-is-out-in-genome-medicine",
+          title: 'RankVar, a machine-learning approach to variant ranking and reinterpretation for rare genetic diseases,...',
+          description: "",
+          section: "News",},{id: "projects-genetic-architecture-of-congenital-anomalies",
+          title: 'Genetic architecture of congenital anomalies',
+          description: "De novo and rare inherited variants in esophageal atresia / tracheoesophageal fistula (EA/TEF)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1_ea_tef/";
+            },},{id: "projects-fitness-impact-of-noncoding-variants",
+          title: 'Fitness impact of noncoding variants',
+          description: "Deep learning models of RNA-binding protein binding and post-transcriptional regulation (ongoing)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_noncoding_rbp/";
+            },},{id: "projects-selection-coefficients-for-genomic-medicine",
+          title: 'Selection coefficients for genomic medicine',
+          description: "Inheritance-independent prioritization of pathogenic variants in early-onset conditions",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_selection_coefficients/";
+            },},{id: "projects-phasing-kif1a-variants-for-allele-specific-aso-therapy",
+          title: 'Phasing KIF1A variants for allele-specific ASO therapy',
+          description: "Long-read phasing to enable polymorphism-targeted antisense oligonucleotides",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_kif1a_phasing/";
+            },},{id: "projects-mutable-amp-variant-analysis-pipelines",
+          title: 'Mutable &amp;amp; variant analysis pipelines',
+          description: "A public database of 79,000+ curated de novo variants, plus pipelines for early-onset disease analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_mutable/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/Xiaoqi_Lin_CV.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6C%69%6E%72%6F%73%61%6C%79%6E%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/Rosalynn7", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
