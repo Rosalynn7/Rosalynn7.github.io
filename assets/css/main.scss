@@ -143,3 +143,9 @@ body {
 .publications ol.bibliography li .title {
   font-weight: 600;
 }
+
+/* Research cards: smaller titles so the full project names fit comfortably */
+.projects .card .card-title {
+  font-size: 1.3rem;
+  line-height: 1.3;
+}

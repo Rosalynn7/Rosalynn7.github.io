@@ -2,4 +2,4 @@ This file makes browsers reload the stylesheet after a style change.
 The theme builds the "?v=..." stamp on main.css from the files in this folder,
 so whenever assets/css/main.scss is edited, change the line below (any change works).
 
-styles-version: 0af1f0fd54c9ce510db3cc23b897fb07
+styles-version: 2fd71b1783797442319726c92f3ee468

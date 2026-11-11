@@ -1,18 +1,14 @@
 ---
 layout: page
-title: Selection coefficients for genomic medicine
-description: Inheritance-independent prioritization of pathogenic variants in early-onset conditions
+title: Applying Population Genetic Concepts to Genomic Medicine
+description: Selection coefficients as an inheritance-independent criterion to prioritize pathogenic variants
 importance: 3
 category: research
 related_publications: false
 ---
 
-**The gap.** Returning pathogenic variants in early-onset neurodevelopmental disorders often depends on confirmed _de novo_ status. This lowers diagnostic yield in families without parental genotypes.
+Returning pathogenic variants in early-onset neurodevelopmental disorders often depends on confirmed _de novo_ status, which lowers diagnostic yield in families without parental genotypes. Proposed selection coefficients (S) as an inheritance-independent criterion to prioritize pathogenic variants.
 
-**The idea.** We use **selection coefficients (S)**, an estimate of how strongly natural selection acts against a variant, as an inheritance-independent criterion for prioritizing pathogenic variants. The approach isn't specific to one disease and applies broadly to early-onset conditions.
-
-**What we found**
-
-- We quantified S for **847** clinically returned pathogenic/likely pathogenic variants in **21,532** individuals from the SPARK autism cohort. Pathogenic variants have substantially higher S than ultra-rare background variants. Within each individual, **98%** of loss-of-function and **67%** of missense pathogenic variants rank in the top three by S.
-- _De novo_ variants have higher S than rare inherited variants. Stringent S (MisFit) thresholds recover _de novo_-level enrichment in non-trio cases, including sex- and cognition-specific thresholds that match or exceed the enrichment seen for _de novo_ variants.
-- S-based ranking across autism (SPARK) and congenital heart disease (PCGC) cohorts captures cohort-specific, biologically meaningful signal.
+- Quantified selection coefficients for 847 clinically returned pathogenic/likely pathogenic variants in 21,532 individuals from the SPARK autism cohort, showing that pathogenic variants have substantially higher S than ultra-rare background variants; 98% of loss-of-function and 67% of missense variants ranked in the top three within each individual.
+- Demonstrated that _de novo_ variants have higher S than rare inherited variants and that stringent S (MisFit) thresholds recover enrichment in non-trio cases matching or exceeding that of _de novo_ variants.
+- Evaluated S-based ranking across autism (SPARK) and congenital heart disease (PCGC) cohorts, showing that S captures cohort-specific, biologically meaningful signal.
